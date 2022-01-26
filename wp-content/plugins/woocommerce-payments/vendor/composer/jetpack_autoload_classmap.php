@@ -122,6 +122,26 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/includes/multi-currency/StorefrontIntegration.php'
 	),
+	'Symfony\\Polyfill\\Php81\\Php81' => array(
+		'version' => '1.23.0.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php81/Php81.php'
+	),
+	'Symfony\\Polyfill\\Php80\\Php80' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Php80.php'
+	),
+	'Symfony\\Polyfill\\Php74\\Php74' => array(
+		'version' => '1.23.0.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php74/Php74.php'
+	),
+	'Symfony\\Polyfill\\Php73\\Php73' => array(
+		'version' => '1.23.0.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php73/Php73.php'
+	),
+	'Symfony\\Polyfill\\Php72\\Php72' => array(
+		'version' => '1.23.0.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php72/Php72.php'
+	),
 	'MyCLabs\\Enum\\Enum' => array(
 		'version' => '1.7.7.0',
 		'path'    => $vendorDir . '/myclabs/php-enum/src/Enum.php'
@@ -541,6 +561,30 @@ return array(
 	'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => array(
 		'version' => '2.10.10.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
+	),
+	'ReturnTypeWillChange' => array(
+		'version' => '1.23.0.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php81/Resources/stubs/ReturnTypeWillChange.php'
+	),
+	'ValueError' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php'
+	),
+	'Attribute' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php'
+	),
+	'UnhandledMatchError' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php'
+	),
+	'Stringable' => array(
+		'version' => '1.23.1.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php'
+	),
+	'JsonException' => array(
+		'version' => '1.23.0.0',
+		'path'    => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php'
 	),
 	'Jetpack_XMLRPC_Server' => array(
 		'version' => '1.30.13.0',

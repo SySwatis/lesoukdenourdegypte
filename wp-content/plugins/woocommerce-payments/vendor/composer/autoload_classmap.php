@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Automattic\\Jetpack\\A8c_Mc_Stats' => $vendorDir . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
     'Automattic\\Jetpack\\Assets' => $vendorDir . '/automattic/jetpack-assets/src/class-assets.php',
     'Automattic\\Jetpack\\Assets\\Semver' => $vendorDir . '/automattic/jetpack-assets/src/class-semver.php',
@@ -148,8 +149,18 @@ return array(
     'Jetpack_Tracks_Client' => $vendorDir . '/automattic/jetpack-tracking/legacy/class-jetpack-tracks-client.php',
     'Jetpack_Tracks_Event' => $vendorDir . '/automattic/jetpack-tracking/legacy/class-jetpack-tracks-event.php',
     'Jetpack_XMLRPC_Server' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
+    'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
     'MyCLabs\\Enum\\Enum' => $vendorDir . '/myclabs/php-enum/src/Enum.php',
     'MyCLabs\\Enum\\PHPUnit\\Comparator' => $vendorDir . '/myclabs/php-enum/src/PHPUnit/Comparator.php',
+    'ReturnTypeWillChange' => $vendorDir . '/symfony/polyfill-php81/Resources/stubs/ReturnTypeWillChange.php',
+    'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+    'Symfony\\Polyfill\\Php72\\Php72' => $vendorDir . '/symfony/polyfill-php72/Php72.php',
+    'Symfony\\Polyfill\\Php73\\Php73' => $vendorDir . '/symfony/polyfill-php73/Php73.php',
+    'Symfony\\Polyfill\\Php74\\Php74' => $vendorDir . '/symfony/polyfill-php74/Php74.php',
+    'Symfony\\Polyfill\\Php80\\Php80' => $vendorDir . '/symfony/polyfill-php80/Php80.php',
+    'Symfony\\Polyfill\\Php81\\Php81' => $vendorDir . '/symfony/polyfill-php81/Php81.php',
+    'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+    'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     'WCPay\\MultiCurrency\\AdminNotices' => $baseDir . '/includes/multi-currency/AdminNotices.php',
     'WCPay\\MultiCurrency\\Analytics' => $baseDir . '/includes/multi-currency/Analytics.php',
     'WCPay\\MultiCurrency\\BackendCurrencies' => $baseDir . '/includes/multi-currency/BackendCurrencies.php',

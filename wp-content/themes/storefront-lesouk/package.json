@@ -1,0 +1,17 @@
+{
+  "name": "storefront-lesouk",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^2.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

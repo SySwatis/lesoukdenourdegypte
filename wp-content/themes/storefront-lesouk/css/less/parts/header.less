@@ -1,0 +1,179 @@
+/* positions the search icon properly in the search box*/
+#masthead .site-search .widget_product_search form:before {
+    top: 1.75em;
+    left: .75em;
+    position: relative;
+}
+/*  resizes the search box*/
+#masthead .site-search .widget_product_search input[type=search],
+#masthead .site-search .widget_product_search input[type=text] {
+    padding: .5em .5em .5em 2em;
+    line-height: 1;
+}
+/* places the search box to the left of the cart menu(optional)*/
+.woocommerce-active .site-header .site-search {
+    float: none;
+    clear: both;
+    margin: 1em auto 2em;
+    width: 100%;
+    max-width: 1080px;
+}
+
+
+.woocommerce-active .site-header .main-navigation {
+    width: 100%;
+    float: none;
+}
+.main-navigation ul.menu, .main-navigation ul.nav-menu {
+    text-align: center;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .site-branding {
+    margin: 0 auto;
+    float: none;
+}
+
+.storefront-primary-navigation .col-full {
+    max-width: 100%;
+}
+
+
+/* header - toggle menu */
+
+button.menu-toggle {
+    border-radius: 0;
+    border: none transparent;
+    padding: 0.75em;
+    width: 3em;
+    height: 3em;
+    > span {
+        text-indent: -9999em;
+        display: block;
+    }
+    > span, > span::before,
+    &::after, &::before {
+        width: 1.5em;
+        height: 3px;
+        left: 0.75em;
+    }
+    &::before {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    &::after {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+
+
+/* user menu (item account) */
+ul.user-menu {
+   display: none;
+}
+@media screen and (min-width: 768px) {
+
+    .user-menu-wrapper {
+        padding-right: 1.618em;
+        width: 21%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 45px;
+        right: 0;
+        
+        ul.menu {
+            &.site-header-cart {
+                position: static;
+                width: 100% !important;
+                .cart-contents .count {
+                    
+                        background-color: #333;
+                        color: #FFF;
+                        display: block;
+                        position: absolute;
+                        padding: 2px;
+                        width: 36px;
+                        height: 36px;
+                        border-radius: 18px;
+                        text-align: center;
+                        right: 0;
+                        top: 0;
+                        margin-left: 12px;
+                        line-height: 36px;
+                        font-size: 18px;
+                        overflow: hidden;
+                    
+                }
+                > li:first-child {
+                    text-align: right;
+                }
+                .cart-contents::after {
+                    content:"\f07a";
+                    float: none;
+                }
+            }
+            float: none !important;
+            &.user-menu {
+                margin: 0;
+                display: inline-block;
+                text-align: center;
+                min-width: 128px;
+                position: relative;
+            }
+        }
+    }
+        
+    
+    ul.user-menu li {
+        list-style: none;
+        a {
+            padding: 1.618em 0;
+            display: block;
+            position: relative;
+            background-color: transparent;
+            height: auto;
+            width: auto;
+            text-indent: 0;
+            // span {
+            //     display: block;
+            //     text-indent: -9999em;
+            // }
+        }
+        &.my-account {
+            a {
+                &:before {
+                    margin-top: -18px;
+                    content:"\f2bd";
+                }
+            }
+        }
+    }
+}
+
+ul.user-menu li>a::before {
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    display:inline-block;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1;
+    font-family:"Font Awesome 5 Free";
+    font-weight:900;
+    line-height:inherit;
+    vertical-align:baseline;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:center;
+    line-height:2.618046972;
+    font-size:1.618em;
+    text-indent:0;
+    display:block;
+    cursor:pointer
+   }
+   

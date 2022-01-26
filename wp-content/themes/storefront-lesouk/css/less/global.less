@@ -1,0 +1,36 @@
+/* global */
+
+.content-area, .widget-area, .site-main {
+	margin-bottom: 0;
+}
+
+article.hentry {
+	margin-bottom: 0;
+}
+
+.home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {
+	margin-bottom: 0 !important;
+}
+@media screen and (min-width: 768px) {
+	#masthead .site-search {
+		display: none	;
+	}
+	.woocommerce-shop #masthead .site-search {
+		display: block	;
+	}
+
+	
+	/* wp-block */
+
+	.wp-block-group.alignfull > div {
+		max-width:  66.4989378333em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* wp-block - titles */
+	
+	.wp-block-group + .wp-block-group h2 {
+		margin: 3em 0;
+	}
+}	
