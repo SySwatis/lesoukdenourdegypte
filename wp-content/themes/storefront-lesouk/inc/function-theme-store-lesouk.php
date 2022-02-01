@@ -22,6 +22,6 @@ add_action( 'wp_enqueue_scripts', 'storefront_lesouk_script',11 );
 add_filter( 'storefront_google_font_families', 'add_google_font_to_storefront' );
 function add_google_font_to_storefront( $family ) {
     //unset($family['source-sans-pro']);
-$family['hind'] = 'Hind:300,400,600,700';
+$family['barlow'] = 'Barlow+Condensed:100,300,400,500,600,700,800,900';
 return $family;
 }
