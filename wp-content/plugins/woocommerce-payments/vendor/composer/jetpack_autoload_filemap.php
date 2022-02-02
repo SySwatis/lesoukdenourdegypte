@@ -10,24 +10,4 @@ return array(
 		'version' => '1.15.0.0',
 		'path'    => $vendorDir . '/automattic/jetpack-assets/actions.php'
 	),
-	'25072dd6e2470089de65ae7bf11d3109' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php72/bootstrap.php'
-	),
-	'0d59ee240a4cd96ddbb4ff164fccea4d' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php73/bootstrap.php'
-	),
-	'b686b8e46447868025a15ce5d0cb2634' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php74/bootstrap.php'
-	),
-	'a4a119a56e50fbb293281d9a48007e0e' => array(
-		'version' => '1.23.1.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php80/bootstrap.php'
-	),
-	'23c18046f52bef3eea034657bafda50f' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php81/bootstrap.php'
-	),
 );

@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooCommerce Payments package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Payments 3.6.0\n"
+"Project-Id-Version: WooCommerce Payments 3.6.1\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-payments\n"
-"POT-Creation-Date: 2022-01-20 07:03:47+00:00\n"
+"POT-Creation-Date: 2022-01-27 12:58:14+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,20 +33,20 @@ msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:82
 #: dist/index.js:1
-#: client/index.js:57
+#: client/index.js:58
 msgid "Overview"
 msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:92
 #: dist/index.js:1
 #: client/deposits/list/index.js:182
-#: client/index.js:80
+#: client/index.js:83
 msgid "Deposits"
 msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:102
 #: dist/index.js:1
-#: client/index.js:105
+#: client/index.js:110
 #: client/payment-details/readers/index.js:76
 #: client/transactions/list/index.tsx:323
 msgid "Transactions"
@@ -55,14 +55,14 @@ msgstr ""
 #: includes/admin/class-wc-payments-admin.php:112
 #: dist/index.js:1
 #: client/disputes/index.tsx:207
-#: client/index.js:140
+#: client/index.js:148
 msgid "Disputes"
 msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:140
 #: includes/admin/class-wc-payments-admin.php:202
 #: dist/index.js:1
-#: client/index.js:194
+#: client/index.js:206
 msgid "Payments"
 msgstr ""
 
@@ -84,19 +84,19 @@ msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:267
 #: dist/index.js:1
-#: client/index.js:82
+#: client/index.js:85
 msgid "Deposit details"
 msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:275
 #: dist/index.js:1
-#: client/index.js:107
+#: client/index.js:112
 msgid "Payment details"
 msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:283
 #: dist/index.js:1
-#: client/index.js:129
+#: client/index.js:136
 msgid "Dispute details"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 #: dist/index.js:1
 #: client/disputes/details/actions.tsx:30
 #: client/disputes/evidence/index.js:289
-#: client/index.js:142
+#: client/index.js:150
 msgid "Challenge dispute"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 
 #: includes/admin/class-wc-payments-admin.php:308
 #: dist/index.js:1
-#: client/index.js:160
+#: client/index.js:170
 msgid "Set up multiple currencies"
 msgstr ""
 
@@ -4297,12 +4297,12 @@ msgid "By clicking \"Finish setup\", you agree to the <a>Terms of Service</a>"
 msgstr ""
 
 #: dist/index.js:1
-#: client/index.js:151
+#: client/index.js:160
 msgid "Add additional payment methods"
 msgstr ""
 
 #: dist/index.js:1
-#: client/index.js:169
+#: client/index.js:180
 #: client/payment-details/readers/index.js:134
 msgid "Card readers"
 msgstr ""

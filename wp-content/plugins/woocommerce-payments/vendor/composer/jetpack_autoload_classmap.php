@@ -7,140 +7,120 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceProductAddOns' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceProductAddOns.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceFedEx' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceFedEx.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceBookings' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceBookings.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceSubscriptions' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceSubscriptions.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceUPS' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceUPS.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceDeposits' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceDeposits.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\WooCommercePreOrders' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommercePreOrders.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility\\BaseCompatibility' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility/BaseCompatibility.php'
 	),
 	'WCPay\\MultiCurrency\\RestController' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/RestController.php'
 	),
 	'WCPay\\MultiCurrency\\SettingsOnboardCta' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/SettingsOnboardCta.php'
 	),
 	'WCPay\\MultiCurrency\\Settings' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Settings.php'
 	),
 	'WCPay\\MultiCurrency\\FrontendPrices' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/FrontendPrices.php'
 	),
 	'WCPay\\MultiCurrency\\Tracking' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Tracking.php'
 	),
 	'WCPay\\MultiCurrency\\PaymentMethodsCompatibility' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/PaymentMethodsCompatibility.php'
 	),
 	'WCPay\\MultiCurrency\\Geolocation' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Geolocation.php'
 	),
 	'WCPay\\MultiCurrency\\BackendCurrencies' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/BackendCurrencies.php'
 	),
 	'WCPay\\MultiCurrency\\Notes\\NoteMultiCurrencyAvailable' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Notes/NoteMultiCurrencyAvailable.php'
 	),
 	'WCPay\\MultiCurrency\\UserSettings' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/UserSettings.php'
 	),
 	'WCPay\\MultiCurrency\\Currency' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Currency.php'
 	),
 	'WCPay\\MultiCurrency\\Analytics' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Analytics.php'
 	),
 	'WCPay\\MultiCurrency\\Utils' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Utils.php'
 	),
 	'WCPay\\MultiCurrency\\CurrencySwitcherBlock' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/CurrencySwitcherBlock.php'
 	),
 	'WCPay\\MultiCurrency\\MultiCurrency' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/MultiCurrency.php'
 	),
 	'WCPay\\MultiCurrency\\CurrencySwitcherWidget' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/CurrencySwitcherWidget.php'
 	),
 	'WCPay\\MultiCurrency\\AdminNotices' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/AdminNotices.php'
 	),
 	'WCPay\\MultiCurrency\\CountryFlags' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/CountryFlags.php'
 	),
 	'WCPay\\MultiCurrency\\FrontendCurrencies' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/FrontendCurrencies.php'
 	),
 	'WCPay\\MultiCurrency\\Compatibility' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/Compatibility.php'
 	),
 	'WCPay\\MultiCurrency\\StorefrontIntegration' => array(
-		'version' => 'dev-trunk',
+		'version' => '9999999-dev',
 		'path'    => $baseDir . '/includes/multi-currency/StorefrontIntegration.php'
-	),
-	'Symfony\\Polyfill\\Php81\\Php81' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php81/Php81.php'
-	),
-	'Symfony\\Polyfill\\Php80\\Php80' => array(
-		'version' => '1.23.1.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php80/Php80.php'
-	),
-	'Symfony\\Polyfill\\Php74\\Php74' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php74/Php74.php'
-	),
-	'Symfony\\Polyfill\\Php73\\Php73' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php73/Php73.php'
-	),
-	'Symfony\\Polyfill\\Php72\\Php72' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php72/Php72.php'
 	),
 	'MyCLabs\\Enum\\Enum' => array(
 		'version' => '1.7.7.0',
@@ -561,30 +541,6 @@ return array(
 	'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => array(
 		'version' => '2.10.10.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
-	),
-	'ReturnTypeWillChange' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php81/Resources/stubs/ReturnTypeWillChange.php'
-	),
-	'ValueError' => array(
-		'version' => '1.23.1.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php'
-	),
-	'Attribute' => array(
-		'version' => '1.23.1.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php'
-	),
-	'UnhandledMatchError' => array(
-		'version' => '1.23.1.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php'
-	),
-	'Stringable' => array(
-		'version' => '1.23.1.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php'
-	),
-	'JsonException' => array(
-		'version' => '1.23.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php'
 	),
 	'Jetpack_XMLRPC_Server' => array(
 		'version' => '1.30.13.0',
