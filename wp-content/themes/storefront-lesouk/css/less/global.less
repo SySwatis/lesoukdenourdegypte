@@ -1,13 +1,210 @@
 /* global */
 
-.content-area, .widget-area, .site-main {
-	margin-bottom: 0;
+.transition-all,
+a,
+nav,
+button,
+.disabled,
+.icon,
+.site-branding {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.content-area,
+.widget-area,
+.site-main {
+  margin-bottom: 0;
 }
 
 article.hentry {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mb-3 {
+  margin-bottom: 3em;
+}
+
+.mb-4 {
+  margin-bottom: 4em;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 1em !important;
+}
+
+.mt-2 {
+  margin-top: 0 !important;
+}
+
+.mt-3 {
+  margin-top: 3em !important;
+}
+.mt-4 {
+  margin-top: 4em !important;
+}
+
+.clearfix {
+  &::after,
+  &::before {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+// .storefront-full-width-content.woocommerce-cart .entry-header, 
+// .storefront-full-width-content.woocommerce-checkout .entry-header, 
+// .storefront-full-width-content.woocommerce-account .entry-header, 
+// .storefront-full-width-content .woocommerce-products-header {
+
+// }
+.entry-header, .woocommerce-products-header {
+	text-align: center;
+	padding: 4.5em 0 3em !important;
+}
+
+/*
+
+<div class="pattern-color">
+
+<span class="icon-sdn-star left"></span>
+
+<span class="icon-sdn-round left"><span class="path1"></span><span class="path2"></span></span>
+<span class="icon-sdn-round right"><span class="path1"></span><span class="path2"></span></span>
+
+<span class="icon-sdn-star right"></span>
+
+</div>
+
+*/
+
+.pattern {
+  display: block;
+  width: 100%;
+  background-image: url(../images/sdn-bridge.svg);
+  padding-top: 7.2em;
+  padding-bottom: 6em;
+  &.top {
+	background-position: top center;
+  }
+  &.white {
+    background-image: url(../images/sdn-bridge-white.svg);
+  }
+  background-repeat: repeat-x;
+  background-size: 90px;
+  background-position: center center;
+  &.bottom {
+	padding-bottom: 4.5em;
+    background-position: bottom center !important;
+  }
+  position: relative;
+
+
+}
+
+.pattern-color {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  &.alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: auto;
+    + p, + .term-description, + .woocommerce {
+      margin-top: 3em;
+    } 
+  }
+  position: relative;
+  background-color: @pink;
+  height: 60px;
+  overflow: hidden;
+  &::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    right: 60px;
+    height: 20px;
+    background-color: orange;
+    background-image: url(../images/sdn-bridge.svg);
+    background-repeat: repeat-x;
+    background-size: 96px;
+    background-position: center;
+  }
+  .icon-sdn-round {
+    position: absolute;
+    top: -20px;
+    display: block;
+    font-size: 84px;
+    &.left {
+      left: 33%;
+      margin-left: -60px;
+    }
+    &.right {
+      right: 33%;
+      margin-right: -60px;
+    }
+  }
+  .icon-sdn-star {
+    background-color: @blue;
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 44px;
+    padding: 8px;
+    z-index: 1;
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0;
+    }
+  }
+
+}
+
+/* form */
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], input[type="url"], input[type="password"], input[type="search"], textarea, .input-text {
+  box-shadow: none;
+}
+
+.woocommerce {
+  h2 {
+    text-align: center;
+  }
+  > form {
+    margin: 0 auto;
+    &.login {
+      max-width: 320px;
+    }
+  }
+}
+
+.woocommerce-Button, .woocommerce-button  {
+
+  text-transform: uppercase;
+
+}
+
 @media screen and (min-width: 768px) {
-
-
-}	
+}
