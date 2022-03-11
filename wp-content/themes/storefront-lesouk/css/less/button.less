@@ -1,0 +1,13 @@
+.button {
+    text-transform: uppercase;
+    &:not(.checkout-button){
+        background-color: @pink;
+        color: white;
+    }
+}
+.wc-forward, .woocommerce-Button--next {
+    text-transform: uppercase;
+    &::after{
+        display: none;
+    }
+}

@@ -13,11 +13,11 @@ button,
   transition: all 0.3s;
 }
 
-.content-area,
-.widget-area,
-.site-main {
-  margin-bottom: 0;
-}
+// .content-area,
+// .widget-area,
+// .site-main {
+//   margin-bottom: 0;
+// }
 
 article.hentry {
   margin-bottom: 0;
@@ -188,6 +188,11 @@ input[type="text"], input[type="number"], input[type="email"], input[type="tel"]
   box-shadow: none;
 }
 
+label {
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+
 .woocommerce {
   h2 {
     text-align: center;
@@ -200,10 +205,14 @@ input[type="text"], input[type="number"], input[type="email"], input[type="tel"]
   }
 }
 
-.woocommerce-Button, .woocommerce-button  {
-
+.woocommerce-info {
+  border-left: 0 !important;
   text-transform: uppercase;
-
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+}
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+  background-color: @blue !important;
 }
 
 @media screen and (min-width: 768px) {
